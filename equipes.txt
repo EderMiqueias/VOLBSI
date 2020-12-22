@@ -1,0 +1,7 @@
+astroword;2018;fenix;travis scott;#28,#27,#26,#25,#24,#23;
+jamantas de flores;2000;flores;joao batista;#7,#8,#9,#10,#11,#12;
+amaterasu;1972;fogo;Itachi Uchiha;#1,#2,#3,#4,#6,#5;
+aldeia da folha;1780;fogo;Hashirama;#13,#14,#15,#16,#17,#18;
+petralhada;1994;sao paulo;Lulinha;#19,#21,#22,#29,#30,#31;
+DC;1936;NY;Bruce;#40,#41,#42,#39,#38,#37;
+DBZ;1989;tokyo;SR Kayou;#50,#49,#48,#47,#46,#45;

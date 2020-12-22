@@ -1,0 +1,29 @@
+gerenciar campeonato
+	iniciar campeonato
+		00 - pre campeonato, iniciado apos selecionar iniciar campeonato
+			verificar se ha 6 times com 6 jogadores cadastrados
+			usar o modulo random PESQUISA CARAIO e criar de forma aleatoria uma sequencia de campeonato
+				cada time deve se enfrentar duas vezes entao, crie uma sequencia e repita ela trocando as posiçoes casa e fora
+		01 - exibir tabela de classificçao
+			nessa seção serao cadastradas automaticamente as informaçoes da pontuçao do campeonato
+			como é apenas um campeonato, os vaalores sao atribuidos a variaveis e nada será registrado em disco
+			exemplo de tabela:
+			EQUIPE	PONTUAÇAO
+		      1°TIME A	12
+		      2°TIME B  10
+		02 - SIMULAR PARTIDA
+			serao 12 rodadas entao deve ter a opçao SIMULAR RODADA N°
+			os resultados serao atribuidos as mesmas variaveis de leitura da tabela de pontuaçao
+			NAO HA EMPATES NO VOLEI pois as partidas serao de 5 sets sem limite de tempo onde algum time vencera no minimo 3 sets
+			a equipe vencedora ganha 3 pontos, enquanto a perdedora ganha 0 pontos
+		03 - VOLTAR
+			tambem deve ter a opçao voltar para acessar a tela de gerenciamento de equipes (pode deixar isso cmg)
+
+		
+		04 - FIN DO CAMPEONATO
+			apos encerrda a 12ª rodada, o progrma ira exibir a equipe vencedora
+			EQUIPE VENCEDORA
+				a que tiver mais pontos, em caso de empate entre 2 ou mais equipes, o criterio de desempate sera por ordem alafabetica
+			ONDE:
+				"abc" > "adc". python le extamente isso "aabc" > "abbc" e retorna True
+			CRIA UMA VARIAVEL COM O NOME DA EUIPE VENCEDORA QUE EU VOU CRIAR ALGUM MENU DE COMEMORAÇAO
